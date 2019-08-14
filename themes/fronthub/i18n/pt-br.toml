@@ -1,0 +1,17 @@
+[posts]
+other = "Posts"
+
+[about]
+other = "Sobre"
+
+[writtenBy]
+other = "Autor"
+
+[on]
+other = "em"
+
+[generator]
+other = "Feito com <a href='https://gohugo.io'>Hugo</a>"
+
+[publishdate]
+other = "{{ .PublishDate.Format \"January 2, 2006\" }}"
