@@ -30,6 +30,7 @@
   p {
     margin: 0 0 1rem;
     text-align: justify;
+    color: $string;
   }
 
   a:hover {
@@ -38,6 +39,8 @@
 
   img {
     margin: 0 auto 0.5rem;
+    display: block;
+    max-width: 300px;
   }
 
   img+em {

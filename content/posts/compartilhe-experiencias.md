@@ -5,7 +5,7 @@ draft: false
 ---
 
 Desde 2017 tenho acompanhado mais de perto a movimentação da comunidade de TI, mais especificamente de front-end. Introvertida que sou, achava a possibilidade de interagir com pessoas que nunca vi e catar informações soltas das palestras extremamente cansativo.
-![Isso REALMENTE é necessário?](../images/bored-cat.gif)
+![GIF animado: um gato branco entediado, com a legenda "WHATEVER" passando](../images/bored-cat.gif)
 
 <!--more-->
 
