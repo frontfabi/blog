@@ -22,6 +22,8 @@ footer,
     margin: 1rem auto;
     position: relative;
     text-align: center;
+    display: flex;
+    align-items: center;
   }
 
   &-title {
@@ -64,6 +66,20 @@ footer,
   a {
     color: $bg;
     font-family: $sans-serif;
+  }
+
+  .circle-avatar {
+    border-radius: 100%;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    border: 2px solid $info;
+
+    .profile {
+      width: 60px;
+      cursor: pointer;
+    }
   }
 }
 
