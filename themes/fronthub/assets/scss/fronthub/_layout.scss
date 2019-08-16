@@ -5,8 +5,7 @@
 }
 
 main,
-footer,
-.nav-container {
+footer {
   display: block;
   margin: 0 auto;
   max-width: 800px;
@@ -24,6 +23,7 @@ footer,
     text-align: center;
     display: flex;
     align-items: center;
+    padding: 0 30px;
   }
 
   &-title {
