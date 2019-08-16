@@ -78,3 +78,28 @@ $info,
 $active,
 $string,
 $purple;
+
+
+$brand-colors: ("dark", $bg),
+("light", $fg),
+("error", $error),
+("error-alt", $error-alt),
+("success", $success),
+("success-alt", $success-alt),
+("warning", $warning),
+("warning-alt", $warning-alt),
+("info", $info),
+("active", $active),
+("string", $string),
+("purple", $purple);
+
+
+@each $color in $brand-colors {
+  .bg-#{nth($color,1)} {
+    background-color: nth($color, 2);
+  }
+
+  .#{nth($color,1)} {
+    color: nth($color, 2);
+  }
+}

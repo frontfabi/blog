@@ -1,10 +1,8 @@
 .catalogue {
-
   &-item {
-    border-bottom: 1px solid $grey-2;
     color: $bg;
     display: block;
-    padding: 2rem 0;
+    margin: 1rem 0;
 
     &:before,
     &:after {
@@ -42,16 +40,18 @@
         display: inline-block;
       }
 
-      &:before,
-      &:after {
-        content: '"';
-      }
+      // &:before,
+      // &:after {
+      //   content: '"';
+      // }
     }
   }
 
   &-prop {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 2rem;
   }
 
   &-time {
@@ -67,7 +67,7 @@
     font-size: 1.2rem;
     line-height: 1;
     font-weight: 700;
-    margin: .5rem 0;
+    margin: .4rem 0;
 
     &:after {
       content: ':';
