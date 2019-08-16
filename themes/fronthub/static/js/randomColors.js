@@ -14,9 +14,12 @@ function getRandomColors() {
   ];
   const index = parseInt(Math.random() * (colors.length - 1 - 0 + 1), 10);
 
-  return colors[index];
+  let classList = document.getElementsByClassName("nav-title")[0].classList;
+  classList.forEach(classname => {
+    if (typeof classname === "string" && classname !== "nav-title")
+      classList.remove(classname);
+  });
+  classList.add(colors[index]);
 }
-(function() {
-  const titleColor = getRandomColors();
-  document.getElementsByClassName("nav-title")[0].classList.add(titleColor);
-})();
+
+setInterval(getRandomColors, 2500);

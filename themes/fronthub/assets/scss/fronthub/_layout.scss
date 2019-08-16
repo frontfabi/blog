@@ -27,7 +27,7 @@ footer {
   }
 
   &-title {
-    @include transition(all .2s ease-out);
+    @include transition(all .2s ease-in-out);
     display: inline-block;
     font-family: $serif-primary;
     margin: 0;
@@ -72,6 +72,7 @@ footer {
     border-radius: 100%;
     overflow: hidden;
     height: 60px;
+    min-width: 60px;
     width: 60px;
     margin-right: 20px;
     border: 2px solid $info;
