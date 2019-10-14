@@ -1,0 +1,16 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "Jul 2019 - atual",
+			"company" : "Tech Mahindra (Outsourcing Sky)",
+			"website": "https://www.techmahindra.com.br",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "Nov 2017 - Present",
+			"company" : "Google",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		}
+	]
+}
