@@ -1,7 +1,6 @@
 ---
 title: "Por que participar de Comunidades de Tecnologia?"
 tags: ["comunidades"]
-
 ---
 
 Conheci a comunidade depois de uma série de pesquisas na Internet sobre algum 
