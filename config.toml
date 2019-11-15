@@ -1,4 +1,6 @@
 baseURL = "http://frontfabi.com.br/"
 languageCode = "pt-br"
 title = "{front | Fabi}"
-theme= "uilite" 
+theme= "zen" 
+[params]
+  mainSections = ["posts"]

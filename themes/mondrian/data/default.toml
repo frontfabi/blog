@@ -1,9 +1,0 @@
-showHeader = true
-showTags = true
-debug = false
-
-[colors]
-  post = "gold"
-  posts = "#8f25e5"
-  page = "gold"
-  sketch = "limegreen"

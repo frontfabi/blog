@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Configuration"
 author: "Fredrik Jonsson"
 
 ---

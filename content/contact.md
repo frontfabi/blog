@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Contact"
 author: "Fredrik Jonsson"
 
 ---
