@@ -2,8 +2,8 @@
 title: "Hugo Zen theme"
 baseURL: "https://example.org/"
 theme: "zen"
-languageCode: "en-GB"
-defaultContentLanguage: "en"
+languageCode: "pt"
+defaultContentLanguage: "pt"
 pluralizelisttitles: false
 removePathAccents: true
 paginate: 10
