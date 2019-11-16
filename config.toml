@@ -3,4 +3,4 @@ languageCode = "pt-br"
 title = "{front | Fabi}"
 theme= "zen" 
 [params]
-  mainSections = ["posts"]
+  mainSections = ["posts"] 
