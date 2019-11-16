@@ -1,4 +1,5 @@
 [build]
+  command = "hugo -b $URL"
   publish = "public"
 
 [build.environment]
