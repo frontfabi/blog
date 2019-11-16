@@ -1,7 +1,8 @@
 baseURL = "http://frontfabi.com.br/"
 languageCode = "pt"
 title = "{front | Fabi}"
-isMultilingual = true
 theme= "zen" 
+description = "The blah blah site"
 [params]
   mainSections = ["posts"] 
+  isMultilingual = true

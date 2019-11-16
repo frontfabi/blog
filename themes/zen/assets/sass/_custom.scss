@@ -1,6 +1,5 @@
 
 .flex-center {
-  
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -19,7 +18,7 @@
   padding: 10px;
   -webkit-animation: icon3d 200ms 10;
   animation: icon3d 200ms 10;
-  color: $white;
+  color: $yellow;
   &:hover {
     -webkit-animation: icon3d 200ms infinite;
           animation: icon3d 200ms infinite;

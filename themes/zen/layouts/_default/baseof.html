@@ -15,7 +15,7 @@
 <body>
   <header class="header layout__header">
     {{ if $.Param "logo" | default false }}<a href="{{ "/" | relLangURL }}" title="Home" rel="home" class="header__logo"><img src="{{ "/images/logo.png" | relURL }}" alt="Home" class="header__logo-image"></a>{{ end }}
-    <h1 class="header__site-name">
+    <h1 class="header__site-name icon-3d">
       <a href="{{ "/" | relLangURL }}" title="Home" class="header__site-link" rel="home"><span>{{ .Site.Title }}</span></a>
     </h1>
     {{ partial "menu.html" . }}
