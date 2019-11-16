@@ -1,12 +1,12 @@
 ---
-title: "Make the Web Fun Again"
-author: "Fredrik Jonsson"
+title: "Sobre mim"
+author: "Fabi Rodrigues"
 
 ---
 
-## Make the Web Fun Again
+Desenvolvedora fullstack na [Gupy](http://vempra.gupy.io "Estamos contratando!!"), tenho mais de 10 anos em TI, passando por diversas áreas, em empresas de Telecom, Consultoria, Publicidade e RH.
 
-Introducing Hugo, a new idea for making website creation simple again. Hugo works flexibly with many formats, and is ideal for blogs, docs, portfolios and much more. Hugo’s speed fosters creativity—it makes building a website fun again.
+
 
 ## Run Anywhere
 
