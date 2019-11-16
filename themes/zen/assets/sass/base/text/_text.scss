@@ -28,16 +28,9 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: inherit;
+  font-weight: 700;
 }
 
-// sass-lint:disable no-mergeable-selectors
-b,
-strong {
-  // Add the correct font weight in Chrome, Edge, and Safari.
-  font-weight: bolder;
-}
-// sass-lint:enable no-mergeable-selectors
 
 // Cite
 //
@@ -109,6 +102,10 @@ mark {
 //
 // The `<q>` element represents an inline quote from another source. Longer
 // quotes should use the `<blockquote>` element.
+
+p {
+  font-weight: 300;
+}
 
 q {
   // Add your styles.

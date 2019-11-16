@@ -41,7 +41,7 @@ $autocomplete-select-bg: $blue;
 
 $body-bg:                $nearblack;
 $header-bg:              $brand;
-$backdrop:               $black;
+$backdrop:               $nearblack;
 
 $mobile-menu:            $header-bg;
 $mobile-menu-cover:      rgba($black, .2);
@@ -72,6 +72,6 @@ $error-bg:               lighten($error, 57%);
 
 $watermark:              $grey-extra-light;
 
-$headings:               $red;
+$headings:               $orange;
 
 $code:                   $yellow;

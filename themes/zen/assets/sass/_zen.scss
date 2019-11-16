@@ -11,18 +11,18 @@ body {
 }
 
 .header {
-  padding-top: $zen-gutters / 2;
-
-  @include respond-to(s) {
-    padding-top: $zen-gutters;
-  }
+  height: 60px;
+  background: $black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer {
   @include margin-top(1.5);
   @include padding(.5 0);
   text-align: center;
-  border-top: 2px solid $brand;
+  background: $black;
 
   p {
     margin: 0;
@@ -226,36 +226,45 @@ figure {
 // Navigation
 
 .main-menu {
-  
   outline: 0;
 
   li {
     @include margin-right(.5);
-    @include margin-bottom(.5);
     padding: 0;
   }
 
   a {
     display: block;
-    background-color: $brand;
-    color: $text-bg;
+    color: $yellow;
     padding: 2px 8px;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      background-color: $brand-dark;
+      color: $orange;
     }
 
     &:active,
     &.active {
-      background-color: $brand;
+      color: $orange;
+      text-decoration: line-through;
+      &:before {
+        content: '{ ';
+      }
+      &:after {
+        content: ' }';
+      }
     }
   }
 }
 
-.menu a.active {
-  text-decoration: none;
+.sidebar {
+  padding: 20px 0;
+  .title {
+    color: $orange;
+    @include type-layout(l, 1.2);
+    margin: 0;
+  }
 }
 
 // Search
