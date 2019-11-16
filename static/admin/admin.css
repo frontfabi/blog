@@ -163,7 +163,7 @@ a:hover,
 a:visited {
     cursor: pointer;
     color: #349ef3;
-    text-decoration: none
+    text-decoration: line-through;
 }
 
 .archive .archive-posts .archive-post .archive-post-title:hover,

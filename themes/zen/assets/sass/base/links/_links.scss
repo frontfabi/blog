@@ -16,7 +16,7 @@ a,
   color: $link;
   // sass-lint:disable no-vendor-prefixes
   // Remove gaps in links underline in iOS 8+ and Safari 8+.
-  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 
 // Any element can receive focus, but only links can be visited, so we can
@@ -24,6 +24,7 @@ a,
 // with additional styles won't have their styles overridden.
 :visited {
   color: $link-visited;
+  text-decoration: line-through;
 }
 
 a:hover,
