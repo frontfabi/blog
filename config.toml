@@ -1,5 +1,5 @@
 baseURL = "http://frontfabi.com.br/"
-languageCode = "pt-br"
+languageCode = "pt"
 title = "{front | Fabi}"
 theme= "zen" 
 [params]
