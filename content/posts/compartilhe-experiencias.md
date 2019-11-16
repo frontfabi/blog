@@ -1,7 +1,7 @@
 ---
 title: "Compartilhe Experiências"
-date: 2019-08-14T15:23:01-03:00
-draft: false
+date: 2019-11-16T15:23:01-03:00
+draft: true
 ---
 
 Desde 2017 tenho acompanhado mais de perto a movimentação da comunidade de TI, mais especificamente de front-end. Introvertida que sou, achava a possibilidade de interagir com pessoas que nunca vi e catar informações soltas das palestras extremamente cansativo.
