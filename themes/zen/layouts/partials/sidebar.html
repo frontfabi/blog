@@ -5,7 +5,7 @@
   {{ range .Site.Sections -}}
   <section>
     <h2 class="title">{{ .Title }}</h2>
-    <ul class="menu">
+    <ul class="menu-highlights">
     {{ range .Pages -}}
     <li><a class="{{ if eq $currentID .File.UniqueID }}active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end -}}

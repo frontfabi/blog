@@ -1,3 +1,45 @@
-// sass-lint:disable no-css-comments, no-color-hex, no-color-literals
 
-// Site custom styles
+.flex-center {
+  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: $white;
+  &:hover {
+    -webkit-animation: icon3d 200ms infinite;
+          animation: icon3d 200ms infinite;
+  }
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px $red, -5px -6px $cyan;
+  }
+  25% {
+    text-shadow: -5px -6px $red, 5px 4px $cyan;
+  }
+  50% {
+    text-shadow: 5px -4px $red, -8px 4px $cyan;
+  }
+  75% {
+    text-shadow: -8px -4px $red, -5px -4px $cyan;
+  }
+  100% {
+    text-shadow: -5px 0 $red, 5px -4px $cyan;
+  }
+}

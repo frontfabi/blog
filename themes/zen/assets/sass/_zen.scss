@@ -4,6 +4,8 @@
 
 body {
   background-color: $backdrop;
+  color: $text;
+  font-size: 14px;
 }
 
 .page {
@@ -39,6 +41,16 @@ figcaption {
 
   @include respond-to(xxl) {
     @include type-layout(s-2, 1);
+  }
+}
+
+.list-view {
+  &:after {
+    content: '<!--  -->';
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: $green;
   }
 }
 
@@ -79,7 +91,15 @@ p {
 article > .content,
 aside {
   ul {
-    @extend %ul-straight-left;
+    display: block;
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+
+    li {
+      padding: 0;
+      margin: 0;
+    }
   }
 
   ol {
@@ -261,9 +281,24 @@ figure {
 .sidebar {
   padding: 20px 0;
   .title {
-    color: $orange;
+    color: $cyan;
     @include type-layout(l, 1.2);
     margin: 0;
+  }
+
+  .menu-highlights {
+    a {
+      text-decoration: none;
+      color: $yellow;
+
+      &:visited,
+      &:active,
+      &:hover,
+      &.active {
+        color: $orange;
+        text-decoration: line-through;
+      }
+    }
   }
 }
 
