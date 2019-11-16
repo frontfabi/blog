@@ -4,7 +4,7 @@ date: 2019-08-14T15:23:01-03:00
 draft: false
 ---
 
-Desde 2017 tenho acompanhado mais de perto a movimentação da comunidade de TI, mais especificamente de front-end. Introvertida que sou, achava a possibilidade de interagir com pessoas que nunca vi e catar informações soltas das palestras extremamente cansativo.sd
+Desde 2017 tenho acompanhado mais de perto a movimentação da comunidade de TI, mais especificamente de front-end. Introvertida que sou, achava a possibilidade de interagir com pessoas que nunca vi e catar informações soltas das palestras extremamente cansativo.
 ![GIF animado: um gato branco entediado, com a legenda "WHATEVER" passando](../images/bored-cat.gif)
 
 <!--more-->
