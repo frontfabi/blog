@@ -1,9 +1,20 @@
-<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view">
-<header>
-<h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-{{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . -}}{{ end }}
-</header>
-<div class="content">
-{{ .Summary }}
-</div>
-</article>
+<article class="single-view">
+    <div class="card-content">
+      <div class="content card--display">
+        <div class="wrapper">
+          <i class="material-icons">ícone aqui</i>
+          <h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ .Title }}</h2>
+        </div>
+      </div>
+
+      <div class="content card--hover">
+        <div class="wrapper">
+          <h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ .Title }}</h2>
+          <time class="modified-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format ($.Param "dateformat" | default "2 January, 2006") }}</time>
+          <p>{{ .Summary }}</p>
+          <a href="{{ .RelPermalink }}" class="link">Veja na íntegra</a>
+        </div>
+      </div>
+    </div>
+    <div class="card--border"></div>
+  </article>

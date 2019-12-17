@@ -1,6 +1,7 @@
 ---
 title: "Por que participar de Comunidades de Tecnologia?"
 tags: ["comunidades"]
+date: 2019-07-20
 draft: true
 ---
 

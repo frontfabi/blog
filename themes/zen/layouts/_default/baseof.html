@@ -26,7 +26,7 @@
     </div>
     {{ end -}}
   </header>
-<div class="page layout__page{{ if $.Param "sidebar" | default true }} layout__sidebar-second{{ end }}">
+<section class="page layout__page{{ if $.Param "sidebar" | default true }} layout__sidebar-second{{ end }}">
 
 
 
@@ -35,7 +35,7 @@
 {{ if $.Param "sidebar" | default true }}{{ partial "sidebar.html" . }}{{ end -}}
 
 
-</div>
+</section>
   <footer class="footer layout__footer">
   {{ if $.Param "feedlinks" }}{{ partial "feedlinks.html" . }}{{ end -}}
   <p>{{ with $.Param "copyright" }}{{ . | markdownify }}{{ else }}<span>© {{ .Site.Title }}</span>{{ end }}</p>

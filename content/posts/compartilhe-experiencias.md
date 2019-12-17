@@ -5,9 +5,9 @@ draft: false
 ---
 
 Desde 2017 tenho acompanhado mais de perto a movimentação da comunidade de TI, mais especificamente de front-end. Introvertida que sou, achava a possibilidade de interagir com pessoas que nunca vi e catar informações soltas das palestras extremamente cansativo.
+<!--more-->
 ![GIF animado: um gato branco entediado, com a legenda "WHATEVER" passando](../images/bored-cat.gif)
 
-<!--more-->
 
 Sem contar o fato de que eu achar que sabia tão pouco, que nada teria pra acrescentar em eventos e comunidades. Só que atentei pra uma coisa importante: enquanto eu já estava na estrada há algum tempo, mesmo que desatualizada, sem dominar a suprema arte dos 298342789 frameworks JavaScript (e contando...), tinha gente iniciando, sem a menor noção do que estudar primeiro, da diferença de um front pra um back-end, o que era HTML, qual a importância da lógica...
 
