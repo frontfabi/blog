@@ -31,7 +31,8 @@ params:
   jquery: true
   mobileMenu: true
   poweredby: false
-  search: true
+  search: false
   searchSize: 20
   sidebar: true
   submitted: true
+  mainSections: ["posts"]
