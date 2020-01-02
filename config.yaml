@@ -15,13 +15,13 @@ author:
   avatar: "path/to/some-image.jpg"
 
 outputs:
-  home: ["HTML","RSS", "JSON"]
-  section: ["HTML","RSS", "JSON"]
+  home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS", "JSON"]
 
 params:
   contact: "frontfabi@gmail.com"
   description: "Desenvolvedora, mentora e palestrante."
-  dateformat: "2 January, 2006"
+  dateformat: "02/01/2006"
   favicon: "icon-64.png"
   feedlinks: true
   footer: "Feito com [Hugo](https://gohugo.io/)."

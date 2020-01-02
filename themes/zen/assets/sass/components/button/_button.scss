@@ -29,14 +29,7 @@ button,
   text-decoration: none;
   // Improve usability and consistency of cursor style between image-type `input` and others.
   cursor: pointer;
-  color: $button;
   text-align: center;
-  background-image: linear-gradient(#f6f6f6, #e2e2e2);
-  border: 1px solid #e4e4e4;
-  border-left-color: #d2d2d2;
-  border-right-color: #d2d2d2;
-  border-bottom-color: #b4b4b4;
-  border-radius: 2px;
 
   // sass-lint:disable no-vendor-prefixes
   // Correct the inability to style clickable types in iOS and Safari.
@@ -49,10 +42,7 @@ button,
     padding: 0;
   }
 
-  // Restore the focus styles unset by the previous rule.
-  &:-moz-focusring {
-    outline: 1px dotted ButtonText;
-  }
+
   // sass-lint:enable no-vendor-prefixes
 
   &:hover,
@@ -64,10 +54,7 @@ button,
   }
 
   &:active {
-    border-color: #555;
     text-shadow: $button 0 -1px 0;
-    background: $grey-dark;
-    color: $text-bg;
   }
 }
 
@@ -84,16 +71,8 @@ button,
 %button--disabled[disabled] {
   // Re-set default cursor for disabled elements.
   cursor: default;
-  color: $button-disabled;
-  background-color: $grey-extra-light;
-  border-color: $grey-extra-light;
-  background-image: none;
-  text-shadow: none;
 
   &:hover,
   &:focus,
-  &:active {
-    // Override any link underlines and color changes.
-    color: $button-disabled;
-  }
+  &:active {}
 }

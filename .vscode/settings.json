@@ -2,5 +2,16 @@
     "editor.fontFamily": "Fira Code, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
-    "eslint.enable": false
+    "eslint.enable": false,
+    "editor.formatOnSave": true,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
 }

@@ -6,6 +6,7 @@
 .main-menu,
 .header__region {
   display: none;
+
   @include respond-to(s) {
     display: block;
   }
@@ -21,6 +22,14 @@
   overflow: hidden;
   z-index: 20;
   pointer-events: none;
+
+  .menu-button-wrapper {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+  }
 
   @include respond-to(s) {
     display: none;
@@ -44,19 +53,21 @@
   }
 
   &__toggle {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    color: $text;
     display: block;
-    position: absolute;
-    top: $zen-gutters / 2;
-    right: $zen-gutters / 2;
-    padding: 6px ($zen-gutters + $zen-gutters / 4 + 4px) 4px 4px;
-    z-index: 22;
-    text-decoration: none;
     font-weight: bold;
     line-height: 1;
-    border: 1px solid $border;
-    border-radius: 3px;
-    color: $text;
+    margin: 0;
+    padding: 6px ($zen-gutters + $zen-gutters / 4 + 4px) 4px 4px;
     pointer-events: auto;
+    right: $zen-gutters / 2;
+    text-decoration: none;
+    top: $zen-gutters / 2;
+    outline: none;
+    z-index: 22;
 
     @include respond-to(s) {
       display: none;

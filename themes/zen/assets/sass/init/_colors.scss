@@ -1,77 +1,77 @@
 // sass-lint:disable no-color-keywords; no-color-hex
 
 // Base colors.
-$black:                  #282a36;
-$nearblack:              #44475a; // #333
-$grey-dark:              lighten($black, 40%); // #666
-$grey:                   lighten($black, 60%); // #999
-$grey-light:             lighten($black, 80%); // #ccc
-$grey-extra-light:       lighten($black, 93.33%); // #eee
-$white:                  #f8f8f2;
+$black: #282a36;
+$nearblack: #44475a; // #333
+$grey-dark: lighten($black, 40%); // #666
+$grey: lighten($black, 60%); // #999
+$grey-light: lighten($black, 80%); // #ccc
+$grey-extra-light: lighten($black, 93.33%); // #eee
+$white: #f8f8f2;
 
-$purple:                 #bd93f9;
-$pink:                   #ff79c6;
-$blue:                   #6272a4; 
-$cyan:                   #8be9fd;
-$red:                    #ff5555;
-$green:                  #50fa7b;
-$yellow:                 #f1fa8c;
-$orange:                 #ffb86c;
+$purple: #bd93f9;
+$pink: #ff79c6;
+$blue: #6272a4;
+$cyan: #8be9fd;
+$red: #ff5555;
+$green: #50fa7b;
+$yellow: #f1fa8c;
+$orange: #ffb86c;
 
 // Colors used in the main content area.
-$brand:                  $yellow;
-$brand-alt:              $grey;
-$brand-dark:             $grey-dark;
-$text:                   $white;
-$text-bg:                $black;
-$text-meta:              $grey-dark;
+$brand: $yellow;
+$brand-alt: $grey;
+$brand-dark: $grey-dark;
+$text: $white;
+$text-bg: $black;
+$text-meta: $grey-dark;
 
-$link:                   $cyan;
-$link-visited:           $orange;
-$link-hover:             $brand;
-$link-active:            $purple;
+$link: $cyan;
+$link-visited: $orange;
+$link-hover: $brand;
+$link-active: $purple;
 
-$border:                 $grey-light;
-$border-dark:            $nearblack;
+$border: $orange;
+$border-dark: $nearblack;
 
-$autocomplete:           $text;
-$autocomplete-bg:        $text-bg;
-$autocomplete-select:    $white;
+$autocomplete: $text;
+$autocomplete-bg: $text-bg;
+$autocomplete-select: $white;
 $autocomplete-select-bg: $blue;
 
-$body-bg:                $nearblack;
-$header-bg:              $brand;
-$backdrop:               $nearblack;
+$body-bg: $nearblack;
+$header-bg: $brand;
+$backdrop: $nearblack;
 
-$mobile-menu:            $header-bg;
-$mobile-menu-cover:      rgba($black, .2);
+$mobile-menu: $orange;
+$mobile-menu-cover: rgba($black, .2);
 
-$button:                 $nearblack;
-$button-disabled:        $grey;
+$button: $nearblack;
+$button-disabled: $grey;
 
-$form-error:             $red;
+$form-error: $red;
 
-$mark-highlight:         $red;
-$mark-bg:                $yellow;
+$mark-highlight: $red;
+$mark-bg: $yellow;
 
-$menu-active:            $text;
+$menu-active: $text;
 
-$preview-bg:             lighten($yellow, 43%);
+$preview-bg: lighten($yellow, 43%);
 
-$row-stripe:             $white;
-$row-disabled:           $grey-light;
+$row-stripe: $white;
+$row-disabled: $grey-light;
 
-$status:                 $green;
-$status-bg:              lighten($status, 62%);
-$status-highlight:       $text;
-$warning:                $text;
-$warning-bg:             lighten($yellow, 45%);
-$warning-border:         $yellow;
-$error:                  $red;
-$error-bg:               lighten($error, 57%);
+$status: $green;
+$status-bg: lighten($status, 62%);
+$status-highlight: $text;
+$warning: $text;
+$warning-bg: lighten($yellow, 45%);
+$warning-border: $yellow;
+$error: $red;
+$error-bg: lighten($error, 57%);
 
-$watermark:              $grey-extra-light;
+$watermark: $grey-extra-light;
 
-$headings:               $orange;
+$headings: $orange;
 
-$code:                   $yellow;
+$code: $yellow;
